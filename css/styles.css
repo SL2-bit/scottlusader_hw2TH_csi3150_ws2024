@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+  --bg-primary: rgb(17, 17, 17);
+  --font-color-primary: rgb(247, 247, 8);
+  --font-color-secondary: rgb(188, 188, 188);
+  --option-color: rgb(255, 0, 0);
+  --option-two-color: rgb(245, 245, 220);
+}
+
+.body-index {
+  color: var(--bg-primary);
+  background-color: var(--font-color-primary);
+  height: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  padding: 5px 25px;
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--option-color);
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+  color: var(--bg-primary);
+}
+
+.hire-btn {
+  background: var(--bg-primary);
+  color: var(--font-color-primary);
+  padding: 6px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: background 0.32 ease;
+}
+
+.hire-btn:hover {
+  background: var(--font-color-secondary);
+  color: var(--bg-primary);
+}
+
+.body-index .prof {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+}
+.body-index p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.body-index .about-me {
+  padding: 10px 10px;
+}
+.body-index span a {
+  transition: color 0.3s ease;
+}
+.body-index span a:hover {
+  color: var(--option-color);
+}
+
+.footer-index {
+  margin-top: 20;
+  padding: 10px 20px 25px;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  background: var(--bg-secondary);
+}
+
+.footer-index .line {
+  border-top: 1px solid black;
+}
+
+/*Resume specific*/
+.navbar h1 {
+  padding: 10px;
+}
+
+.body-resume {
+  padding: 10px 10px;
+  text-align: left;
+  background: var(--font-color-secondary);
+}
+
+.body-resume .obj {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.body-resume .prof-exp {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.body-resume .prof-exp h4 {
+  text-align: left;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.body-resume .edu-exp {
+  text-align: left;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.body-resume .edu-exp table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/*Fun Facts page*/
+.navbar-fun {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 5px 25px;
+}
+
+.navbar-fun > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar-fun ul {
+  display: flex;
+}
+.navbar-fun ul li {
+  list-style: none;
+}
+
+.navbar-fun ul li a {
+  text-decoration: none;
+  color: var(--option-color);
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar-fun ul li:hover a {
+  color: var(--bg-primary);
+}
+
+.body-fun {
+  background: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.body-fun h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body-fun h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body-fun a {
+  transition: color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.body-fun a:hover {
+  color: var(--option-color);
+}
+
+.body-fun img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+}
